@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Bootstrap-Themed Tree Widget Documentation</title>
+	<meta name="description" content="Applied Internet Technologies timekeeping software">
+	<meta name="author" content="Applied Internet Technologies: Jeromy French">
+	<meta http-equiv="expires" content="Fri, 21 Jun 2013 20:24:32 GMT" />
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="//raw.github.com/jhfrench/bootstrap-tree/blob/master/bootstrap-combined.min.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="//raw.github.com/jhfrench/bootstrap-tree/blob/master/js/bootstrap-tree.js">
+</head>
+<body class="container-fluid" style="">
+	<h1>Bootstrap-Themed Tree Widget Documentation</h1>
+	<div class="row-fluid">
+		<section id="content_container" role="main" class="span12">
+			<h2 id="demo1">Demonstration 1</h2>
+			<div class="tree well">
+			    <ul>
+			        <li>
+			            <span><i class="icon-folder-open"></i> Parent</span> <a href="">Goes somewhere</a>
+			            <ul>
+			                <li>
+			                	<span><i class="icon-minus-sign"></i> Child</span> <a href="">Goes somewhere</a>
+			                    <ul>
+			                        <li>
+				                        <span><i class="icon-leaf"></i> Grand Child</span> <a href="">Goes somewhere</a>
+			                        </li>
+			                    </ul>
+			                </li>
+			                <li>
+			                	<span><i class="icon-minus-sign"></i> Child</span> <a href="">Goes somewhere</a>
+			                    <ul>
+			                        <li>
+				                        <span><i class="icon-leaf"></i> Grand Child</span> <a href="">Goes somewhere</a>
+			                        </li>
+			                        <li>
+			                        	<span><i class="icon-minus-sign"></i> Grand Child</span> <a href="">Goes somewhere</a>
+			                            <ul>
+			                                <li>
+				                                <span><i class="icon-minus-sign"></i> Great Grand Child</span> <a href="">Goes somewhere</a>
+					                            <ul>
+					                                <li>
+						                                <span><i class="icon-leaf"></i> Great great Grand Child</span> <a href="">Goes somewhere</a>
+					                                </li>
+					                                <li>
+						                                <span><i class="icon-leaf"></i> Great great Grand Child</span> <a href="">Goes somewhere</a>
+					                                </li>
+					                             </ul>
+			                                </li>
+			                                <li>
+				                                <span><i class="icon-leaf"></i> Great Grand Child</span> <a href="">Goes somewhere</a>
+			                                </li>
+			                                <li>
+				                                <span><i class="icon-leaf"></i> Great Grand Child</span> <a href="">Goes somewhere</a>
+			                                </li>
+			                            </ul>
+			                        </li>
+			                        <li>
+				                        <span><i class="icon-leaf"></i> Grand Child</span> <a href="">Goes somewhere</a>
+			                        </li>
+			                    </ul>
+			                </li>
+			            </ul>
+			        </li>
+			        <li>
+			            <span><i class="icon-folder-open"></i> Parent2</span> <a href="">Goes somewhere</a>
+			            <ul>
+			                <li>
+			                	<span><i class="icon-leaf"></i> Child</span> <a href="">Goes somewhere</a>
+					        </li>
+					    </ul>
+			        </li>
+			    </ul>
+			</div>
+			<h2 id="demo2">Demonstration 2</h2>
+			<div class="tree">
+			    <ul>
+			        <li>
+			            <span><i class="icon-calendar"></i> 2013, Week 2</span>
+			            <ul>
+			                <li>
+			                	<span class="badge badge-success"><i class="icon-minus-sign"></i> Monday, January 7: 8.00 hours</span>
+			                    <ul>
+			                        <li>
+				                        <a href=""><span><i class="icon-time"></i> 8.00</span> &ndash; Changed CSS to accomodate...</a>
+			                        </li>
+			                    </ul>
+			                </li>
+			                <li>
+			                	<span class="badge badge-success"><i class="icon-minus-sign"></i> Tuesday, January 8: 8.00 hours</span>
+			                    <ul>
+			                        <li>
+				                        <span><i class="icon-time"></i> 6.00</span> &ndash; <a href="">Altered code...</a>
+			                        </li>
+			                        <li>
+				                        <span><i class="icon-time"></i> 2.00</span> &ndash; <a href="">Simplified our approach to...</a>
+			                        </li>
+			                    </ul>
+			                </li>
+			                <li>
+			                	<span class="badge badge-warning"><i class="icon-minus-sign"></i> Wednesday, January 9: 6.00 hours</span>
+			                    <ul>
+			                        <li>
+				                        <a href=""><span><i class="icon-time"></i> 3.00</span> &ndash; Fixed bug caused by...</a>
+			                        </li>
+			                        <li>
+				                        <a href=""><span><i class="icon-time"></i> 3.00</span> &ndash; Comitting latest code to Git...</a>
+			                        </li>
+			                    </ul>
+			                </li>
+			                <li>
+			                	<span class="badge badge-important"><i class="icon-minus-sign"></i> Wednesday, January 9: 4.00 hours</span>
+			                    <ul>
+			                        <li>
+				                        <a href=""><span><i class="icon-time"></i> 2.00</span> &ndash; Create component that...</a>
+			                        </li>
+			                    </ul>
+			                </li>
+			            </ul>
+			        </li>
+			        <li>
+			            <span><i class="icon-calendar"></i> 2013, Week 3</span>
+			            <ul>
+			                <li>
+			                	<span class="badge badge-success"><i class="icon-minus-sign"></i> Monday, January 14: 8.00 hours</span>
+			                    <ul>
+			                        <li>
+				                        <span><i class="icon-time"></i> 7.75</span> &ndash; <a href="">Writing documentation...</a>
+			                        </li>
+			                        <li>
+				                        <span><i class="icon-time"></i> 0.25</span> &ndash; <a href="">Reverting code back to...</a>
+			                        </li>
+			                    </ul>
+			                </li>
+					    </ul>
+			        </li>
+			    </ul>
+			</div>
+		<!-- END MAIN BODY -->
+	</section>
+	<section id="content_container" role="main" class="span12">
+		<h2>Usage <small>I'll flesh this section out with greater detail when I have time</small></h2>
+		<ul>
+			<li>Compile the LESS files into CSS</li>
+			<li>Include the CSS into your HTML page</li>
+			<li>Include the jQuery into your HTML page</li>
+			<li>Generated appropriately classed and nested UL and LI into your HTML page</li>
+		</ul>
+	</section>
+	<section class="alert alert-info">
+		See <a href="http://jsfiddle.net/jhfrench/GpdgF/" target="jsFiddle">http://jsfiddle.net/jhfrench/GpdgF/</a> for a working example that you can tinker with.
+	</section>
+	<section class="alert alert-success">
+		<p><a href="http://stackoverflow.com/users/1488999/vitaliy-bychik" target="vitaliy-bychik">Vitaly Bychick</a> and <a href="http://stackoverflow.com/users/554397/mehmet-atas" target="mehmet-atas">Mehmet Ata?</a> did all the heavy lifting.</p>
+		<p>I just aggregated <a href="http://stackoverflow.com/q/11167628/1430996" target="stackoverflow">their good works</a> and converted the CSS into the <a href="//raw.github.com/jhfrench/bootstrap-tree/blob/master/less/bootstrap-tree.less" target="bootstrap">LESS</a> file.</p>
+	</section>
+
+	</div>
+	<footer role="contentinfo" class="row-fluid visible-desktop">
+		<div class="span4">
+			This code is provided as per the <a href="http://stackexchange.com/legal#3SubscriberContent">StackOverflow Subscriber Content License</a>.
+		</div>
+		<div class="span4">
+		<noscript>
+			This application provides the optimal experience when JavaScript is enabled.
+		</noscript>
+		</div>
+		<div style="float: right" class="span4">
+			Version 1.0.0 (Last Updated: May 28, 2013)
+		</div>
+	</footer>
+	<!-- Footer ends -->
+</body>
+</html>
