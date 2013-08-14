@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap-tree",
+  "description": "A tree widget for Bootstrap",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-watch": "~0.3.1"
+  }
+}
