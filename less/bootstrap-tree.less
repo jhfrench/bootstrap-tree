@@ -32,12 +32,14 @@
 			height: 100%;
 			top: 0;
 			width: 1px;
+			.transition("border-color 0.1s ease 0.1s");
 		}
 		&::after {
 			border-top: 1px solid @grayLight;
 			height: 20px;
 			top: 13px;
 			width: 23px;
+			.transition("border-color 0.1s ease 0.1s");
 		}
 		span {
 			-moz-border-radius: 5px;
@@ -48,13 +50,23 @@
 			line-height: 14px;
 			padding: 2px 4px;
 			text-decoration: none;
+			.transition(~"color 0.2s ease 0.1s, background-color 0.2s ease 0.1s, border-color 0.3s ease 0.2s");
 		}
 		&.parent_li > span {
 			cursor: pointer;
 			/*Time for some hover effects*/
-			&:hover, &:hover+ul li span {
-				background: @grayLighter;
-				border: 1px solid @gray;
+			&:hover {
+				background-color: darken(@orange, 5%);
+				border: 1px solid darken(@orange, 10%);
+				color: #fff;
+			}
+			&:hover+ul li {
+				&::after { border-top-color: @orange; }
+				&::before { border-left-color: @orange; }
+			}
+			&:hover+ul li span {
+				background: lighten(@orange, 35%);
+				border: 1px solid lighten(@orange, 10%);
 				color: #000;
 			}
 		}
