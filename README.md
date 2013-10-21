@@ -24,5 +24,5 @@ You can also use `grunt watch` to watch changes to the less files while you buil
 
 Just call .bootstrapTree() on the root element of the tree:
     
-$('.tree').boootstrapTree();
+    $('.tree').boootstrapTree();
     
