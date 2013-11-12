@@ -19,3 +19,10 @@ To automate the process of building the css, Grunt is used. To use grunt, switch
     
 This will build the css and output it to `bootstrap-combined.min.css` file.
 You can also use `grunt watch` to watch changes to the less files while you build and test.
+
+#### Usage
+
+Just call .bootstrapTree() on the root element of the tree:
+    
+    $('.tree').boootstrapTree();
+    
